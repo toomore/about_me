@@ -10,7 +10,17 @@
                 background-size: cover;
                 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
             }
-            .intro {
+
+            body a {
+                color: #fff;
+            }
+
+            body a:hover {
+                text-shadow: 1px 1px 5px #eee;
+                text-decoration: none;
+            }
+
+            .intro-wrap {
                 width: 320px;
                 height: 300px;
                 top: 200px;
@@ -20,8 +30,9 @@
                 position: relative;
                 background-color: rgba(220, 220, 220, 0.2);
                 box-shadow: 1px 2px 10px #eee;
-                color: #ddd;
+                color: #fff;
                 text-shadow: 1px 1px #777;
+                border: 1px #ccc solid;
             }
             .name img {
                 border-radius: 40px;
@@ -31,16 +42,27 @@
             .name {
                 text-align: center;
             }
+
+            .intro {
+                margin-top: 20px;
+                color: #fff;
+                text-shadow: 0px 0px 7px #000;
+            }
         </style>
     </head>
     <body>
-        <div class="intro">
+        <div class="intro-wrap">
             <div class="name">
                 <img src="http://www.gravatar.com/avatar/4b0cdd9418513546c11c12f181f51c0f.png">
                 <div>
                     Toomore Chiang<br>
-                    Taipei, Taiwan<br>
+                    Taipei, Taiwan / <a href="http://www.pinkoi.com/">Pinkoi.com</a><br>
                 </div>
+            </div>
+            <div class="intro">
+                <p>I use Python to write some <a href="https://github.com/toomore">tools</a> (<a href="http://www.slideshare.net/toomore">slide</a>).</p>
+                <p>I write <a href="http://blog.toomore.net/">Blog</a>(sometimes), I always go around with my <a href="http://www.flickr.com/photos/toomore">camera</a> and build a small <a href="http://pi.isuphoto.org/toomore">site</a> for some photos.</p>
+                <p>You can find me at <a href="https://www.facebook.com/toomore">Facebook</a> / <a href="https://twitter.com/toomore">twitter</a>.</p>
             </div>
         </div>
     </body>
