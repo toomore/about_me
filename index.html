@@ -26,11 +26,13 @@
                 text-decoration: none;
             }
 
+            .container {
+                width: 100%;
+            }
+
             .intro-wrap {
-                width: 320px;
-                height: 300px;
-                top: 200px;
-                left: 55%;
+                width: 300px;
+                margin: 100px auto;
                 padding: 30px;
                 border-radius: 8px;
                 position: relative;
@@ -50,26 +52,39 @@
             }
 
             .intro {
-                margin-top: 20px;
+                margin-top: 50px;
+                color: #000;
+                text-shadow: 0px 0px 7px #fff;
+            }
+
+            .intro a {
+                color: #222;
+                font-weight: bold;
+            }
+
+            .intro a:hover {
+                text-shadow: 1px 1px 2px #333;
+                text-decoration: none;
                 color: #fff;
-                text-shadow: 0px 0px 7px #000;
             }
         </style>
     </head>
     <body>
-        <div class="intro-wrap" itemscope="itemscope" itemscope itemtype="http://schema.org/Person">
-            <div class="name">
-                <img itemprop="image" src="http://www.gravatar.com/avatar/4b0cdd9418513546c11c12f181f51c0f.png">
-                <div>
-                    <span itemprop="name">Toomore Chiang</span><br>
-                    <span itemprop="workLocation" itemscope itemtype="http://schema.org/Place"><span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Taipei, Taiwan</span></span></span><br>
-                    <span itemprop="jobTitle">Python Parselmouth</span> / <a href="http://www.pinkoi.com/" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Pinkoi.com</span></a><br>
+        <div class="container">
+            <div class="intro-wrap" itemscope="itemscope" itemscope itemtype="http://schema.org/Person">
+                <div class="name">
+                    <img itemprop="image" src="http://www.gravatar.com/avatar/4b0cdd9418513546c11c12f181f51c0f.png">
+                    <div>
+                        <span itemprop="name">Toomore Chiang</span><br>
+                        <span itemprop="workLocation" itemscope itemtype="http://schema.org/Place"><span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Taipei, Taiwan</span></span></span><br>
+                        <span itemprop="jobTitle">Python Parselmouth</span> / <a href="http://www.pinkoi.com/" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Pinkoi.com</span></a><br>
+                    </div>
                 </div>
-            </div>
-            <div class="intro" itemprop="description">
-                <p>I use Python to write some <a href="https://github.com/toomore">tools</a> (<a href="http://www.slideshare.net/toomore">slide</a>).</p>
-                <p>I write <a itemprop="url" href="http://blog.toomore.net/">Blog</a>(sometimes), I always go around with my <a href="http://www.flickr.com/photos/toomore">camera</a> and build a small <a href="http://pi.isuphoto.org/toomore">site</a> for some photos.</p>
-                <p>You can find me at <a href="https://www.facebook.com/toomore">Facebook</a> / <a href="https://twitter.com/toomore">twitter</a>.</p>
+                <div class="intro" itemprop="description">
+                    <p>I use Python to write some <a href="https://github.com/toomore">tools</a> (<a href="http://www.slideshare.net/toomore">slide</a>).</p>
+                    <p>I write <a itemprop="url" href="http://blog.toomore.net/">Blog</a>(sometimes), I always go around with my <a href="http://www.flickr.com/photos/toomore">camera</a> and build a small <a href="http://pi.isuphoto.org/toomore">site</a> for some photos.</p>
+                    <p>You can find me at <a href="https://www.facebook.com/toomore">Facebook</a> / <a href="https://twitter.com/toomore">twitter</a>.</p>
+                </div>
             </div>
         </div>
         <script type="text/javascript">
