@@ -6,19 +6,22 @@
         <link rel="shortcut icon" href="favicon.ico">
         <meta property="og:title" content="About Toomore Chiang">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="http://toomore.net/">
-        <meta property="og:image" content="http://www.toomore.net/img/IMG_9021_1_16x9_s.jpg">
+        <meta property="og:url" content="https://toomore.net/">
+        <meta property="og:image" content="https://toomore.net/img/IMG_9021_1_16x9_s.jpg">
         <meta property="og:site_name" content="About Toomore Chiang">
         <meta property="og:description" content="Hi, I'm Toomore, and I'm a mediocre programmer. I use Go/Python to build some tools. You can find me at Facebook / twitter.">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@toomore">
         <meta name="twitter:creator" content="@toomore">
         <meta name="p:domain_verify" content="786db72cff8b1de7d6aee3df0384645e"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#86CE68">
         <style type="text/css">
             body {
                 /*background-image: url('http://pic.isuphoto.org/1517_b_img_5004.jpg');*/
                 /*background-image: url('http://pic.isuphoto.org/1492_b_img_9566.jpg');*/
-                background-image: url('http://pic.isuphoto.org/1218_b_img_2647.jpg');
+                /*background-image: url('https://dwdphjj7249rz.cloudfront.net/1218_b_img_2647.jpg');*/
+                background-image: url('https://toomore.net/img/60280014.JPG');
                 background-size: cover;
                 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
             }
@@ -37,8 +40,8 @@
             }
 
             .intro-wrap {
-                width: 300px;
-                margin: 100px auto;
+                max-width: 220px;
+                margin: 10% auto;
                 padding: 30px;
                 border-radius: 8px;
                 position: relative;
@@ -50,7 +53,8 @@
             }
             .name img {
                 border-radius: 40px;
-                margin: 5px 20px 5px 5px;
+                margin: 5px auto;
+                width: 80px;
             }
 
             .name {
@@ -61,10 +65,11 @@
                 margin-top: 30px;
                 color: #000;
                 text-shadow: 0px 0px 7px #fff;
+                line-height: 25px;
             }
 
             .intro a {
-                color: #222;
+                color: #410000;
                 font-weight: bold;
             }
 
@@ -73,21 +78,37 @@
                 text-decoration: none;
                 color: #fff;
             }
+
+            .abb {
+                text-align: right;
+                font-size: 10px;
+            }
+            .abb a {
+                text-decoration: none;
+            }
+            .gpg {
+                font-size: 10px;
+            }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="intro-wrap" itemscope="itemscope" itemscope itemtype="http://schema.org/Person">
                 <div class="name">
-                    <img itemprop="image" src="http://www.gravatar.com/avatar/4b0cdd9418513546c11c12f181f51c0f.png">
+                    <img itemprop="image" src="https://toomore.net/img/toomore.jpg">
                     <div>
                         <span itemprop="name">Toomore Chiang</span><br>
                         <span itemprop="workLocation" itemscope itemtype="http://schema.org/Place"><span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Taipei, Taiwan</span></span></span>
                     </div>
                 </div>
                 <div class="intro" itemprop="description">
-                    <p>I use Go/Python to build some <a href="https://github.com/toomore">tools</a> (<a href="http://www.slideshare.net/toomore">slide</a>).</p>
-                    <p><a itemprop="url" href="http://blog.toomore.net/">Blog</a>(sometimes), <a href="http://www.flickr.com/photos/toomore">flickr</a> or my Photo shared <a href="http://pi.isuphoto.org/toomore">site</a>. You can find me at <a href="https://www.facebook.com/toomore">Facebook</a> / <a href="https://twitter.com/toomore">twitter</a>.</p>
+                    <p><a href="https://github.com/toomore">Golang</a> <a href="https://github.com/toomore">Python</a> <a href="http://www.slideshare.net/toomore">Slide</a> <a itemprop="url" href="http://blog.toomore.net/">Blog</a> <a href="http://www.flickr.com/photos/toomore">Flickr</a> <a href="http://www.lomography.com/homes/toomore">Lomo</a> <a href="http://pi.isuphoto.org/toomore">Album</a> <a href="https://www.facebook.com/toomore">Facebook</a> <a href="https://twitter.com/toomore">Twitter</a>.</p>
+                </div>
+                <div class="gpg">
+                    GPG: <a href="https://pgp.mit.edu/pks/lookup?op=get&search=0x85F382908501D3F6">8501D3F6</a> / <a href="https://pgp.mit.edu/pks/lookup?op=vindex&fingerprint=on&search=0x85F382908501D3F6">2D40 0739 FF7D 039D E348 0200 85F3 8290 8501 D3F6</a>
+                </div>
+                <div class="abb">
+                    <a href="https://www.flickr.com/photos/toomore/24142782805">about background</a>
                 </div>
             </div>
         </div>
